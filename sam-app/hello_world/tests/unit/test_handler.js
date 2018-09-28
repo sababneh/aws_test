@@ -7,6 +7,7 @@ var event, context;
 
 
 describe('Tests index', function () {
+describe('Tests index', function  () {
     it('verifies successful response', async () => {
         const result = await app.lambda_handler(event, context, (err, result) => {
             expect(result).to.be.an('object');
